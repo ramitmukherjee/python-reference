@@ -5,6 +5,7 @@
 # values are mutable and can have duplication
 d1 = {'ramit': 'active', 'apurva': 'inactive'}
 print(d1)
+print(d1.items())
 
 # copy
 d1.copy()
