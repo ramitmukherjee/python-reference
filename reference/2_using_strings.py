@@ -1,11 +1,18 @@
 import re # regex
 
+print("""
+-------------
+Using Strings
+-------------
+""")
+
 # creating an immutable string
 x = "banana"
 
 print(x.upper()) # BANANA
 print(x.replace('b', 'sh')) # shanana
 print(x.find('nana')) # 2 or -1 if not found
+print("a, b, c".split(', ')) # ['a', 'b', 'c']
 
 # strings are arrays
 print(f"x = {x}") # b
@@ -38,5 +45,4 @@ m = wordMatcher.match(x)
 print(m.start()) # 0
 print(m.group()) # ba
 print(m.span()) # 0, 2
-
 
