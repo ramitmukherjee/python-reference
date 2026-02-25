@@ -79,3 +79,9 @@ print(l3)
 
 # l2 still has values
 print(l2)
+# [100, 9, 300]
+
+# sorting a list (will mutate the list)
+l2.sort()
+print(l2)
+# [9, 100, 300]
